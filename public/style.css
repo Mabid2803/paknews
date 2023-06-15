@@ -1,5 +1,93 @@
-*
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+.navbar
 {
     padding: 0;
-    margin: 0;
+    background-color: rgba(246,249,250,.95);
+}
+.nav-link
+{
+    padding: 1rem;
+}
+.navbar li:hover
+{
+    background-color: #EFF4F5;
+}
+.bg
+{
+    cursor: pointer;
+    background-position: center;
+    background-image: url("img/Suzuki-GSX-125-right-1-scaled-e1659112262119.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 400px;
+    margin: 5px;
+}
+.background-5
+{
+    background-image: url("img/smartphone-scaled-e1686332230340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-text
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.center-div-1 .card-text
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.img-fluid
+{
+    max-width: 150px;
+}
+a
+{
+    text-decoration: none;
+}
+.facebook:hover
+{
+    background-color: #4C76BE !important;
+    transform: scale(1.2);
+}
+.twitter:hover
+{
+    background-color: #00B8EC !important;
+    transform: scale(1.2);
+}
+.linkedin:hover
+{
+    background-color: #0077B5 !important;
+    transform: scale(1.2);
+}
+.youtube:hover
+{
+    background-color: #FF0000 !important;
+    transform: scale(1.2);
+}
+.android:hover
+{
+    background-color: #E33E2F !important;
+    transform: scale(1.2);
+}
+.apple:hover
+{
+    background-color: #50595F !important;
+    transform: scale(1.2);
+}
+@media  only screen and (min-width: 1350px)
+{
+    .container
+    {
+        min-width: 1300px;
+    }
 }
